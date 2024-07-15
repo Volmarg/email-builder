@@ -1,0 +1,9 @@
+.iconsWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+  > span {
+    margin-top: 4px;
+  }
+}

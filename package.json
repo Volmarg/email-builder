@@ -1,0 +1,19 @@
+{
+  "name": "easy-email",
+  "scripts": {
+    "install-all": "lerna exec -- yarn --force && cd demo && yarn --force",
+    "build": "yarn build:core && yarn build:editor && yarn build:extensions",
+    "build:core": "cd packages/easy-email-core && yarn build",
+    "build:editor": "cd packages/easy-email-editor && yarn build",
+    "build:extensions": "cd packages/easy-email-extensions && yarn build",
+    "dev": "cd demo && yarn dev",
+    "build:demo": "cd demo && yarn build",
+    "build:prod": "export NODE_OPTIONS='--max-old-space-size=4096' && cd demo && yarn build",
+    "preview:demo": "cd demo && yarn preview --host",
+    "lint": "lerna exec -- yarn format"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0",
+    "liquidjs": "^9.37.0"
+  }
+}

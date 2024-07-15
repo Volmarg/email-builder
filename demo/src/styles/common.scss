@@ -1,0 +1,181 @@
+$primary-color: #417505;
+$max-page-size: 480px;
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+}
+
+.visible-on-hover {
+  opacity: 0;
+  transition: all 0.5s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.complexity-button:hover {
+  opacity: 0.7;
+}
+
+.complexity-button-active {
+  background-color: rgb(var(--primary-6)) !important;
+  color: white !important;
+}
+
+.drag-icon-button {
+  margin:0;
+  padding: 0;
+}
+
+$sidebarWidth: 300px !important;
+.left-sidebar {
+  width: $sidebarWidth;
+
+  & .arco-card-body > .arco-card-grid {
+    width: $sidebarWidth;
+    border-bottom: none !important;
+    box-shadow: 1px 0 0 0 var(--color-neutral-3), 1px 0 0 0 var(--color-neutral-3) inset,0 1px 0 0 var(--color-neutral-3) inset;;
+  }
+}
+
+.shortcut-sidebar {
+
+  [data-is-blocks-panel-dragging^="true"] > .arco-card-bordered {
+    border: none !important;
+  }
+
+  .moreButton {
+
+    display: flex;
+    margin-left: 10px;
+
+    *:hover {
+      outline: none !important;
+      opacity: 70%;
+      cursor: pointer;
+    }
+  }
+
+  width: $sidebarWidth;
+
+  padding: 20px;
+  padding-right: 25px;
+  padding-left: 0px;
+
+  > div[class^='_Stack'] {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    > div[class^='_Item'] {
+      margin-top: 15px;
+      width: auto !important;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      .iconfont {
+        font-size: 20px !important;
+      }
+
+      [class^='_iconsWrapper'] {
+        > span {
+          margin-left: 0 !important;
+          display: none !important;
+        }
+      }
+
+      // hover directly on element
+      &:hover {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        outline: 2.25px rgba(95, 167, 248, 0.7) solid;
+        border-radius: 2px;
+        cursor: pointer !important;
+        opacity: 70%;
+      }
+
+      // hover on all children
+      & *:hover {
+        cursor: pointer !important;
+      }
+    }
+
+    $paddingLrL: 5px;
+    .drag-icon {
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 6px 0px;
+      outline: 1px rgba(128, 128, 128, 0.04) solid;
+      border-radius: 2px;
+      width: 80px;
+      height: 60px;
+      padding-left: $paddingLrL;
+      padding-right: $paddingLrL;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      color: black;
+
+      button {
+        .iconfont:before {
+          color: black !important;
+        }
+        &:hover {
+          background-color: transparent !important;
+        }
+      }
+    }
+
+  }
+}
+.arco-row {
+  margin-bottom: 8px;
+
+  &.arco-input {
+    border-radius: 5px;
+  }
+}
+
+.arco-space-item {
+  & span:not([class*='_strong']), label:not([class*='_strong']) {
+    color: #4e4e4e;
+  }
+}
+
+.top-bar-left-sidebar-hamburger {
+  &::after {
+    content: " Components";
+  }
+}
+
+.top-bar-right-sidebar-hamburger {
+  &::after {
+    content: " Settings";
+  }
+}
+
+.global-settings-panels {
+  margin-bottom: 30px;
+}
+
+.global-setting-header {
+  text-align: center;
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
+}

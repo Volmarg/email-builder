@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client", "node"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "alwaysStrict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": false,
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@demo": ["src"],
+      "@demo/*": ["src/*"],
+      "@core": ["../../../../packages/easy-email-core/src"],
+      "@core/typings": ["../../../../packages/easy-email-core/src/typings/index.ts"],
+      "@core/blocks/*": ["../../../../packages/easy-email-core/src/blocks/*"],
+      "@core/blocks": ["../../../../packages/easy-email-core/src/blocks"],
+      "@core/constants": ["../../../../packages/easy-email-core/src/constants.ts"],
+      "@core/components": ["../../../../packages/easy-email-core/src/components"],
+      "@core/components/*": ["../../../../packages/easy-email-core/src/components/*"],
+      "@core/utils/*": ["../../../../packages/easy-email-core/src/utils/*"],
+      "@core/utils": ["../../../../packages/easy-email-core/src/utils"],
+      "easy-email-editor": ["../../packages/easy-email-editor/src/index.tsx"],
+      "easy-email-core": ["../../packages/easy-email-core/src/index.tsx"],
+      "easy-email-extensions": [
+        "../packages/easy-email-extensions/src/index.tsx"
+      ],
+      "easy-email-config-panel": [
+        "../packages/easy-email-config-panel/src/index.tsx"
+      ]
+    }
+  },
+  "include": [
+      "./scripts"
+  ],
+  "exclude": ["node_modules"]
+}
