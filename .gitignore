@@ -10,3 +10,5 @@ coverage
 stats.html
 .npmrc
 .idea
+
+demo/node_modules
