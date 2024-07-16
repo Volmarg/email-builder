@@ -1,6 +1,6 @@
 <div align="center"><h1>Email Builder</h1></div>
 
-<div align="center">This project is a part of: <b><a href="">Voltigo</a></b></div>
+<div align="center">This project is a part of: <b><a href="https://github.com/Volmarg/voltigo-frontend">Voltigo</a></b></div>
 <div align="center">This project is based on: <b><a href="https://github.com/zalify/easy-email-editor">Easy Email</a></b></div>
 
 
