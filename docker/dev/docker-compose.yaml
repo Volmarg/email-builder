@@ -1,4 +1,3 @@
-version: "2.4"
 services:
   easy_email:
     container_name: easy-email-dev
@@ -44,5 +43,5 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: 11.8.1.0/16
+        - subnet: 11.8.0.0/16
           gateway: 11.8.1.1
