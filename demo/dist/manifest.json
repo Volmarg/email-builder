@@ -1,14 +1,14 @@
 {
   "index.html": {
-    "file": "assets/index.9af52b54.js",
+    "file": "assets/index.47632279.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_lodash.e3688547.js",
-      "_mjml-browser.db54c711.js"
+      "_lodash.27024354.js",
+      "_mjml-browser.522e432c.js"
     ],
     "dynamicImports": [
-      "_mjml-browser.db54c711.js",
+      "_mjml-browser.522e432c.js",
       "node_modules/html2canvas/dist/html2canvas.esm.js",
       "src/templates/Arturia - Newsletter.json",
       "src/templates/DynamicData.json",
@@ -21,10 +21,20 @@
       "src/templates/Star Wars.json",
       "src/templates/Stay Updated On Our Shopping.json",
       "src/templates/We Serve Healthy & Delicious Foods.json",
-      "_index.2ba3ca4b.js"
+      "_index.4816d03d.js"
     ],
     "css": [
-      "assets/index.b9c2c201.css"
+      "assets/index.34056371.css"
+    ]
+  },
+  "_lodash.27024354.js": {
+    "file": "assets/lodash.27024354.js"
+  },
+  "_mjml-browser.522e432c.js": {
+    "file": "assets/mjml-browser.522e432c.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_lodash.27024354.js"
     ]
   },
   "node_modules/html2canvas/dist/html2canvas.esm.js": {
@@ -32,23 +42,13 @@
     "src": "node_modules/html2canvas/dist/html2canvas.esm.js",
     "isDynamicEntry": true
   },
-  "_lodash.e3688547.js": {
-    "file": "assets/lodash.e3688547.js"
-  },
-  "_mjml-browser.db54c711.js": {
-    "file": "assets/mjml-browser.db54c711.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_lodash.e3688547.js"
-    ]
-  },
-  "_index.2ba3ca4b.js": {
-    "file": "assets/index.2ba3ca4b.js",
+  "_index.4816d03d.js": {
+    "file": "assets/index.4816d03d.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_lodash.e3688547.js",
-      "_mjml-browser.db54c711.js"
+      "_lodash.27024354.js",
+      "_mjml-browser.522e432c.js"
     ],
     "dynamicImports": [
       "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx",
@@ -56,7 +56,7 @@
       "node_modules/browser-image-compression/dist/browser-image-compression.mjs"
     ],
     "css": [
-      "assets/index.ea688dc9.css"
+      "assets/index.884e6242.css"
     ],
     "assets": [
       "assets/iphone.339c33c4.png",
@@ -126,27 +126,27 @@
     "isDynamicEntry": true
   },
   "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx": {
-    "file": "assets/GlobalPanel.3a6cbeee.js",
+    "file": "assets/GlobalPanel.6bc1c92a.js",
     "src": "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index.2ba3ca4b.js",
-      "_lodash.e3688547.js",
-      "_mjml-browser.db54c711.js"
+      "_index.4816d03d.js",
+      "_lodash.27024354.js",
+      "_mjml-browser.522e432c.js"
     ]
   },
   "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx": {
-    "file": "assets/index.9a11d878.js",
+    "file": "assets/index.29705213.js",
     "src": "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_lodash.e3688547.js",
-      "_mjml-browser.db54c711.js"
+      "_lodash.27024354.js",
+      "_mjml-browser.522e432c.js"
     ],
     "css": [
-      "assets/index.095880f7.css"
+      "assets/index.31e64034.css"
     ]
   }
 }
