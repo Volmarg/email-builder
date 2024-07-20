@@ -6,7 +6,7 @@ services:
     # However this will make the GUI reachable under some strange IP, to get the IP call the `docker logs`
     # to see the output of the npm dev server
     # yarn & npm packages must be handled in here, not in dockerfile as the composer.json is not yet available at that point
-    entrypoint: sh -c "./docker/entrypoint.sh && npm i && cd demo && npm i && vite preview --host --port=80"
+    entrypoint: sh -c "cd demo && vite preview --host --port=80"
 
     # Start the container every time that pc is restarted
     restart: always
