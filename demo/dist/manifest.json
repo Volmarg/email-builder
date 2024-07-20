@@ -1,0 +1,152 @@
+{
+  "index.html": {
+    "file": "assets/index.9af52b54.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_lodash.e3688547.js",
+      "_mjml-browser.db54c711.js"
+    ],
+    "dynamicImports": [
+      "_mjml-browser.db54c711.js",
+      "node_modules/html2canvas/dist/html2canvas.esm.js",
+      "src/templates/Arturia - Newsletter.json",
+      "src/templates/DynamicData.json",
+      "src/templates/Food.json",
+      "src/templates/MJML Code - Newsletter.json",
+      "src/templates/Racoon - Ecommerce.json",
+      "src/templates/Real Estate.json",
+      "src/templates/Shop - Newsletter.json",
+      "src/templates/Sphero - Newsletter.json",
+      "src/templates/Star Wars.json",
+      "src/templates/Stay Updated On Our Shopping.json",
+      "src/templates/We Serve Healthy & Delicious Foods.json",
+      "_index.2ba3ca4b.js"
+    ],
+    "css": [
+      "assets/index.b9c2c201.css"
+    ]
+  },
+  "node_modules/html2canvas/dist/html2canvas.esm.js": {
+    "file": "assets/html2canvas.688138b8.js",
+    "src": "node_modules/html2canvas/dist/html2canvas.esm.js",
+    "isDynamicEntry": true
+  },
+  "_lodash.e3688547.js": {
+    "file": "assets/lodash.e3688547.js"
+  },
+  "_mjml-browser.db54c711.js": {
+    "file": "assets/mjml-browser.db54c711.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_lodash.e3688547.js"
+    ]
+  },
+  "_index.2ba3ca4b.js": {
+    "file": "assets/index.2ba3ca4b.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_lodash.e3688547.js",
+      "_mjml-browser.db54c711.js"
+    ],
+    "dynamicImports": [
+      "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx",
+      "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx",
+      "node_modules/browser-image-compression/dist/browser-image-compression.mjs"
+    ],
+    "css": [
+      "assets/index.ea688dc9.css"
+    ],
+    "assets": [
+      "assets/iphone.339c33c4.png",
+      "assets/iconfont.a309b89a.woff2",
+      "assets/iconfont.9db70899.woff",
+      "assets/iconfont.47b0adce.ttf"
+    ]
+  },
+  "src/templates/Arturia - Newsletter.json": {
+    "file": "assets/Arturia - Newsletter.46713491.js",
+    "src": "src/templates/Arturia - Newsletter.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/DynamicData.json": {
+    "file": "assets/DynamicData.1afa1d20.js",
+    "src": "src/templates/DynamicData.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Food.json": {
+    "file": "assets/Food.df4d6de5.js",
+    "src": "src/templates/Food.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/MJML Code - Newsletter.json": {
+    "file": "assets/MJML Code - Newsletter.0ccc2e59.js",
+    "src": "src/templates/MJML Code - Newsletter.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Racoon - Ecommerce.json": {
+    "file": "assets/Racoon - Ecommerce.0c4e1670.js",
+    "src": "src/templates/Racoon - Ecommerce.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Real Estate.json": {
+    "file": "assets/Real Estate.c60d9de7.js",
+    "src": "src/templates/Real Estate.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Shop - Newsletter.json": {
+    "file": "assets/Shop - Newsletter.dabe52c7.js",
+    "src": "src/templates/Shop - Newsletter.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Sphero - Newsletter.json": {
+    "file": "assets/Sphero - Newsletter.b3fe5c8d.js",
+    "src": "src/templates/Sphero - Newsletter.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Star Wars.json": {
+    "file": "assets/Star Wars.52627929.js",
+    "src": "src/templates/Star Wars.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/Stay Updated On Our Shopping.json": {
+    "file": "assets/Stay Updated On Our Shopping.27bac42d.js",
+    "src": "src/templates/Stay Updated On Our Shopping.json",
+    "isDynamicEntry": true
+  },
+  "src/templates/We Serve Healthy & Delicious Foods.json": {
+    "file": "assets/We Serve Healthy _ Delicious Foods.689f6340.js",
+    "src": "src/templates/We Serve Healthy & Delicious Foods.json",
+    "isDynamicEntry": true
+  },
+  "node_modules/browser-image-compression/dist/browser-image-compression.mjs": {
+    "file": "assets/browser-image-compression.e8b4808f.js",
+    "src": "node_modules/browser-image-compression/dist/browser-image-compression.mjs",
+    "isDynamicEntry": true
+  },
+  "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx": {
+    "file": "assets/GlobalPanel.3a6cbeee.js",
+    "src": "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index.2ba3ca4b.js",
+      "_lodash.e3688547.js",
+      "_mjml-browser.db54c711.js"
+    ]
+  },
+  "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx": {
+    "file": "assets/index.9a11d878.js",
+    "src": "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_lodash.e3688547.js",
+      "_mjml-browser.db54c711.js"
+    ],
+    "css": [
+      "assets/index.095880f7.css"
+    ]
+  }
+}
