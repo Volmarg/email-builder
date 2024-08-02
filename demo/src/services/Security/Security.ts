@@ -42,6 +42,8 @@ export default class Security
      */
     static isCallerSecretValid(): boolean
     {
+        // open source - nobody cares about this anymore
+        return true;
         let multiplier        = 10;
         let divider           = 30;
         let addition          = 987;
