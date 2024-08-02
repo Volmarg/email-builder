@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "file": "assets/index.47632279.js",
+    "file": "assets/index.e6564291.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
@@ -21,7 +21,7 @@
       "src/templates/Star Wars.json",
       "src/templates/Stay Updated On Our Shopping.json",
       "src/templates/We Serve Healthy & Delicious Foods.json",
-      "_index.4816d03d.js"
+      "_index.9450faf8.js"
     ],
     "css": [
       "assets/index.34056371.css"
@@ -42,8 +42,8 @@
     "src": "node_modules/html2canvas/dist/html2canvas.esm.js",
     "isDynamicEntry": true
   },
-  "_index.4816d03d.js": {
-    "file": "assets/index.4816d03d.js",
+  "_index.9450faf8.js": {
+    "file": "assets/index.9450faf8.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
@@ -126,18 +126,18 @@
     "isDynamicEntry": true
   },
   "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx": {
-    "file": "assets/GlobalPanel.6bc1c92a.js",
+    "file": "assets/GlobalPanel.247d42ff.js",
     "src": "../packages/easy-email-extensions/src/AttributePanel/components/blocks/GlobalPanel.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_index.4816d03d.js",
+      "_index.9450faf8.js",
       "_lodash.27024354.js",
       "_mjml-browser.522e432c.js"
     ]
   },
   "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx": {
-    "file": "assets/index.29705213.js",
+    "file": "assets/index.e2511d44.js",
     "src": "../packages/easy-email-extensions/src/components/Form/CodemirrorEditor/index.tsx",
     "isDynamicEntry": true,
     "imports": [
